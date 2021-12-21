@@ -416,6 +416,7 @@ p{
 .menu-item-title{
     display: flex;
     align-items: center;
+    max-width: calc(100%-80px);
 }
 .menu-item-title h3{
     font-size: 16px;
