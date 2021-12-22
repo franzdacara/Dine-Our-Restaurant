@@ -80,19 +80,19 @@ p{
     padding: 80px 0;
 }
 
-/* Section tittle */
-.section-tittle{
+/* Section title */
+.section-title{
     width: 100%;
     padding: 0 15px;
     text-align: center;
     margin-bottom: 60px;
 }
-.section-tittle h2{
+.section-title h2{
     font-size: 35px;
     text-transform: capitalize;
 }
-.section-tittle h2::before{
-    content: attr(data-tittle);
+.section-title h2::before{
+    content: attr(data-title);
     display: block;
     font-size: 24px;
     color: var(--main-color);
@@ -307,7 +307,7 @@ p{
 
 /* About us Section */
 .about-section{
-    background-color: var(--dark-light);
+    background-color: var(--dark);
 }
 .about-text,
 .about-img{
@@ -360,8 +360,9 @@ p{
 /* menu section */
 .menu-section{
     background-color: var(--dark);
+    padding-bottom: 60px;
 }
-.menu-section .section-tittle{
+.menu-section .section-title{
     margin-bottom: 40px;
 }
 .menu-tabs{
@@ -387,10 +388,10 @@ p{
 .menu-tab-item.active{
     color: var(--main-color);
 }
-.menu-item-content{
+.menu-tab-content{
     display: none;
 }
-.menu-item-content.active{
+.menu-tab-content.active{
     display: flex;
 }
 .menu-item{
@@ -438,4 +439,16 @@ p{
 }
 .menu-item:hover .menu-item-price{
     color: var(--white);
+}
+
+/* Testimonials */
+
+.testimonials-section{
+    background-color: var(--dark);
+}
+.testi-item{
+    width: calc((100% / 3) - 30px);
+    margin: 0 15px 30px;
+    border: 2px solid var(--dark-light);
+    padding: 30px;
 }
