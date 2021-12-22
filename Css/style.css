@@ -626,6 +626,9 @@ p{
     .about-img{
         margin-top: 40px;
     }
+    .about-text h3{
+        font-size: 24px;
+    }
     .footer-item{
         width: 100%;
     }
