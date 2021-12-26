@@ -35,6 +35,6 @@ function validate(){
       return false;
     }
     alert("Form Submitted Successfully!");
-    return;
+    return true;
     
   }
